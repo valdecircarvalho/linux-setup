@@ -42,6 +42,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 echo "Adicionando o usuário ao grupo do Docker..."
 sudo groupadd docker
 sudo usermod -aG docker $USER
+sudo newgrp docker
+
 
 # Enable Docker services
 echo "Habilitando serviços do Docker..."
