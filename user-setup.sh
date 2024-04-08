@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # Define o nome de usuário e a URL da chave SSH pública
-username="valdecir"
+username="vc"
 ssh_key_url="https://raw.githubusercontent.com/valdecircarvalho/linux-setup/main/id_rsa.pub"
 
 # Cria o usuário sem definir uma senha
